@@ -145,6 +145,11 @@ input, select, textarea {
 			}
 
 		}
+	
+	.darker-font {
+		color: rgba(43, 2, 43, 0.8);
+		text-shadow: 1px 1px 8px rgb(182, 134, 182);
+	}
 
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
