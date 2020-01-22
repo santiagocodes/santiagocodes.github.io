@@ -3939,6 +3939,51 @@ input, select, textarea {
 		padding: 25px;
 	}
 
-	.quote-font {
+	.size-35 {
 		font-size: 35px;
+	}
+
+	.float-right {
+		float: right;
+	}
+
+/* Preguntas */
+
+	.question {
+		padding: 20px;
+		cursor: pointer;
+		position: relative;
+	}
+
+	.accordion ul {
+		list-style: none;
+		margin: 0 0 2em 0;
+		padding-left: 0;
+	}
+
+	.question .fa-angle-down {
+		position: absolute;
+		right: 30px;
+		top: 0;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		color: #000;
+		transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+	}
+
+	.accordion li.open .question .fa-angle-down {
+		transform: rotate(180deg);
+	}
+	.accordion li.open .answer  {
+		max-height: 150px;
+	}
+
+	.answer   {
+	max-height: 0;
+	overflow: hidden;
+	transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+	}
+	.answer p {
+	padding: 20px 20px 20px 50px;
 	}
