@@ -1845,9 +1845,10 @@ input, select, textarea {
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
 		color: #ffffff !important;
+		background-color: rgba(236, 236, 236, 0.4);
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.6em;
+		font-size: 0.7em;
 		font-weight: bold;
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
@@ -1962,7 +1963,7 @@ input, select, textarea {
 			input[type="button"]:hover:after,
 			button:hover:after,
 			.button:hover:after {
-				opacity: 0.05;
+				opacity: 0.4;
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
@@ -2680,10 +2681,11 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		cursor: default;
+		cursor: pointer;
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		float: right;
 	}
 
 		ul.actions li {
@@ -2814,7 +2816,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
+		cursor: pointer;
 		list-style: none;
 		padding-left: 0;
 	}
@@ -3212,6 +3214,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
+		padding-bottom: 4em;
 	}
 
 		.wrapper > .inner {
@@ -3534,7 +3537,7 @@ input, select, textarea {
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		background: #312450;
-		cursor: default;
+		cursor: pointer;
 		height: 100vh;
 		left: 0;
 		overflow-x: hidden;
@@ -3910,11 +3913,11 @@ input, select, textarea {
 
 			}
 
-		@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1280px) {
 
-			#saludos {
-				background-attachment: scroll;
-			}
+				#saludos {
+					background-attachment: scroll;
+				}
 
 		}
 	
@@ -3922,21 +3925,28 @@ input, select, textarea {
 		float: left;
 		shape-outside: circle(50%);
 		inline-size: 175px;
-		border-radius: 50%;
+		border-radius: 20%;
 		border: 2px solid rgb(182, 134, 182);
 		box-shadow: 0 1px 10px 2px rgba(43, 2, 43, 0.9);
-		margin: 0px 20px 10px 0px;
+		margin: 0px 35px 15px 0px;
+		}
+	
+		@media screen and (max-width: 736px) {
+			.picMe {
+				inline-size: 100px;
+				margin: 0px 20px 12px 0px;
+				}
 		}
 
 /* Recomendaciones */
 		
-	.quote-box {
-		background-color: rgba(134, 60, 134, 0.5);
+	.section-box {
+		background-color: rgba(134, 50, 134, 0.5);
 		border: 2px solid rgb(80, 8, 80);
 		border-radius: 10px;
 		box-shadow: 0 2px 10px 5px rgb(182, 134, 182);
 		margin-top: 35px; 
-		padding: 25px;
+		padding: 15px 20px;
 	}
 
 	.size-35 {
@@ -3976,7 +3986,7 @@ input, select, textarea {
 		transform: rotate(180deg);
 	}
 	.accordion li.open .answer  {
-		max-height: 150px;
+		max-height: 1000px;
 	}
 
 	.answer   {
@@ -3986,4 +3996,13 @@ input, select, textarea {
 	}
 	.answer p {
 	padding: 20px 20px 20px 50px;
+	}
+
+	#preguntas {
+		background-attachment: fixed;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9))
+						, url("images/abstraction.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
