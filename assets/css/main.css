@@ -3056,7 +3056,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			/* width: 50em; */
 			-ms-flex: 1;
 		}
 
@@ -3927,3 +3927,18 @@ input, select, textarea {
 		box-shadow: 0 1px 10px 2px rgba(43, 2, 43, 0.9);
 		margin: 0px 20px 10px 0px;
 		}
+
+/* Recomendaciones */
+		
+	.quote-box {
+		background-color: rgba(134, 60, 134, 0.5);
+		border: 2px solid rgb(80, 8, 80);
+		border-radius: 10px;
+		box-shadow: 0 2px 10px 5px rgb(182, 134, 182);
+		margin-top: 35px; 
+		padding: 25px;
+	}
+
+	.quote-font {
+		font-size: 35px;
+	}
