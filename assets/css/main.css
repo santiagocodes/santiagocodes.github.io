@@ -3059,7 +3059,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			/* width: 50em; */
-			-ms-flex: 1;
+			/* -ms-flex: 1; */
 		}
 
 			.spotlights > section > .content > .inner {
@@ -3898,13 +3898,13 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-			@media screen and (max-width: 980px) {
+			/* @media screen and (max-width: 980px) {
 
 				#saludos p br {
 					display: none;
 				}
 
-			}
+			} */
 
 			@media screen and (max-width: 736px) {
 
@@ -3939,6 +3939,11 @@ input, select, textarea {
 				}
 		}
 
+/* Mis Proyectos */		
+		.giphy-embed {
+			width: 100%;
+			padding: 10px 0 5px 0;
+		}
 /* Recomendaciones */
 		
 	.section-box {
