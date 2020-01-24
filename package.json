@@ -1,7 +1,7 @@
 {
   "name": "portfolio-esp",
   "version": "1.0.0",
-  "description": "Hyperspace by HTML5 UP\r \thtml5up.net | @ajlkn\r \tFree for personal and commercial use under the CCA 3.0 license(html5up.net/license)",
+  "description": "Versión en español del Portfolio.",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d build"
