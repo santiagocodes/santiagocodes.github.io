@@ -3923,6 +3923,14 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
+		#saludos strong, h1 {
+			font-family: 'Lakki Reddy', cursive;
+		}
+
+		#saludos strong {
+			text-shadow: 2px 2px 6px black;
+		}
+
 			/* @media screen and (max-width: 980px) {
 
 				#saludos p br {
@@ -3964,10 +3972,19 @@ input, select, textarea {
 				}
 		}
 
-/* Mis Proyectos */		
+/* Mis Proyectos */	
+
 		.giphy-embed {
 			width: 100%;
 			padding: 10px 0 5px 0;
+		}
+
+		strong, h2, h3 {
+			font-family: 'Lakki Reddy', cursive;
+		}
+
+		strong {
+			text-shadow: 2px 2px 6px black;
 		}
 /* Recomendaciones */
 		
@@ -3975,9 +3992,13 @@ input, select, textarea {
 		background-color: rgba(134, 50, 134, 0.5);
 		border: 2px solid rgb(80, 8, 80);
 		border-radius: 10px;
-		box-shadow: 0 2px 10px 5px rgb(182, 134, 182);
+		box-shadow: 0 2px 5px 1px rgb(182, 134, 182);
 		margin-top: 35px; 
-		padding: 15px 20px;
+		padding: 20px 40px;
+		width: 95%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.size-35 {
@@ -3991,7 +4012,7 @@ input, select, textarea {
 /* Preguntas */
 
 	.question {
-		padding: 20px;
+		padding: 40px;
 		cursor: pointer;
 		position: relative;
 	}
@@ -4004,7 +4025,7 @@ input, select, textarea {
 
 	.question .fa-angle-down {
 		position: absolute;
-		right: 30px;
+		right: 0px;
 		top: 0;
 		height: 100%;
 		display: flex;
