@@ -145,7 +145,7 @@ input, select, textarea {
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
-		line-height: 1.75;
+		line-height: 1.50;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -271,9 +271,9 @@ input, select, textarea {
 			font-size: 2em;
 		}
 
-		h2 {
+		/* h2 {
 			font-size: 1.25em;
-		}
+		} */
 
 		h3 {
 			font-size: 1em;
@@ -2839,6 +2839,12 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
+	@media screen and (max-width: 480px) {
+		.contactotext {
+			display: none;
+		}
+	}
+
 /* Icons */
 
 	ul.icons {
@@ -2864,6 +2870,7 @@ input, select, textarea {
 					display: none;
 				}
 
+	
 /* Menu */
 
 	ul.menu {
@@ -3336,7 +3343,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper.fullscreen {
-					padding: 2em 0;
+					/* padding: 2em 0; */
 					min-height: 0;
 				}
 
@@ -3924,7 +3931,12 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-		#saludos strong, h1 {
+		#saludos h1 {
+			font-family: 'Lakki Reddy', tahoma;
+			letter-spacing: 0.1em;
+		}
+
+		#saludos strong {
 			font-family: 'Lakki Reddy', tahoma;
 			letter-spacing: 0.1em;
 		}
@@ -3948,6 +3960,14 @@ input, select, textarea {
 					font-size: 1em;
 				}
 
+				#saludos h1 {
+					letter-spacing: 0em;
+				}
+
+				#saludos .noshow {
+					display: none;
+				}
+
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -3966,13 +3986,13 @@ input, select, textarea {
 		border: 2px solid rgb(182, 134, 182);
 		box-shadow: 0 1px 10px 2px rgba(43, 2, 43, 0.9);
 		margin: 0px 35px 15px 0px;
-		}
+	}
 	
 		@media screen and (max-width: 736px) {
 			.picMe {
 				inline-size: 100px;
 				margin: 0px 20px 12px 0px;
-				}
+			}
 		}
 
 /* Mis Proyectos */	
@@ -4015,10 +4035,25 @@ input, select, textarea {
 
 /* Preguntas */
 
+	#preguntas {
+		background-attachment: fixed;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9))
+						, url("images/abstraction.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
 	.question {
 		padding: 5px 20px;
 		cursor: pointer;
 		position: relative;
+	}
+
+	@media screen and (max-width: 736px) {
+		#preguntas .section-box {
+			padding: 1em 2.5em 1em 0.5em;
+		}
 	}
 
 	.accordion ul {
@@ -4041,24 +4076,15 @@ input, select, textarea {
 	.accordion li.open .question .fa-angle-down {
 		transform: rotate(180deg);
 	}
-	.accordion li.open .answer  {
+	.accordion li.open .answer {
 		max-height: 1000px;
 	}
 
-	.answer   {
+	.answer {
 	max-height: 0;
 	overflow: hidden;
 	transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
 	}
 	.answer p {
 	padding: 20px 20px 20px 50px;
-	}
-
-	#preguntas {
-		background-attachment: fixed;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9))
-						, url("images/abstraction.jpg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
 	}
