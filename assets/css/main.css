@@ -1873,6 +1873,7 @@ input, select, textarea {
 		background-color: rgba(236, 236, 236, 0.4);
 		cursor: pointer;
 		display: inline-block;
+		font-family: tahoma, Arial, Helvetica, sans-serif;
 		font-size: 0.7em;
 		font-weight: bold;
 		height: calc(4.75em + 2px);
@@ -3924,11 +3925,13 @@ input, select, textarea {
 		}
 
 		#saludos strong, h1 {
-			font-family: 'Lakki Reddy', cursive;
+			font-family: 'Lakki Reddy', tahoma;
+			letter-spacing: 0.1em;
 		}
 
 		#saludos strong {
 			text-shadow: 2px 2px 6px black;
+			letter-spacing: 0.2em;
 		}
 
 			/* @media screen and (max-width: 980px) {
@@ -3980,11 +3983,12 @@ input, select, textarea {
 		}
 
 		strong, h2, h3 {
-			font-family: 'Lakki Reddy', cursive;
+			font-family: 'Lakki Reddy', tahoma;
+			letter-spacing: 0.1em;
 		}
 
 		strong {
-			text-shadow: 2px 2px 6px black;
+			text-shadow: 1px 1px 6px black;
 		}
 /* Recomendaciones */
 		
