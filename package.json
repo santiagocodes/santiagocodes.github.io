@@ -1,19 +1,19 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-esp",
   "version": "1.0.0",
-  "description": "Versión en español de mi Portfolio.",
+  "description": "Versión en español del Portfolio.",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santiagocodes/portfolio.git"
+    "url": "git+https://github.com/mc-santiago/portfolio-esp.git"
   },
   "author": "mc-santiago",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/santiagocodes/portfolio/issues"
+    "url": "https://github.com/mc-santiago/portfolio-esp/issues"
   },
   "homepage": "santiagocodes.com",
   "dependencies": {
