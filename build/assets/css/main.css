@@ -3932,12 +3932,12 @@ input, select, textarea {
 		}
 
 		#saludos h1 {
-			font-family: 'Lakki Reddy', tahoma;
+			font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma;
 			letter-spacing: 0.1em;
 		}
 
 		#saludos strong {
-			font-family: 'Lakki Reddy', tahoma;
+			font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma;
 			letter-spacing: 0.1em;
 		}
 
@@ -4003,7 +4003,7 @@ input, select, textarea {
 		}
 
 		strong, h2, h3 {
-			font-family: 'Lakki Reddy', tahoma;
+			font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma;
 			letter-spacing: 0.1em;
 		}
 
@@ -4088,3 +4088,13 @@ input, select, textarea {
 	.answer p {
 	padding: 20px 20px 20px 50px;
 	}
+
+/* Contactame */
+
+	/* #contacto .shadowsfont {
+		font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma;
+	}
+
+	#contacto .arialfont {
+		font-family: Arial, Helvetica, sans-serif;
+	} */

@@ -4,10 +4,11 @@ Hyperspace by HTML5 UP @ajlkn. Free for personal and commercial use under the CC
 
 # Google Font
 
-Lakki Reddy @Appsji Ambarisha Darbha. Lakki Reddy is a Telugu display typeface, mainly suitable for headings, posters and decorative invitations. Use it anywhere you want to use a handwriting style to add informality and personality to your text.
+"Shadows Into Light" is a clean, neat handwriting font that has a feminine feel with nice rounded edges and curves. It is perfect for adding a personalized touch to any project.
 
-The Telugu is designed by Appaji Ambarisha Darbha in 2013 and made available by Silicon Andhra under the SIL Open Font License v1.1. 
-https://fonts.google.com/specimen/Lakki+Reddy?selection.family=Lakki+Reddy
+To embed "Shadows Into Light" font into a webpage, copy this code into the <head> of your HTML document.
+
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
 # Form
 
