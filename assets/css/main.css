@@ -202,7 +202,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3932,7 +3932,7 @@ input, select, textarea {
 		}
 
 		#saludos h1 {
-			font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma;
+			font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma, arial;
 			letter-spacing: 0.1em;
 		}
 
@@ -3999,7 +3999,7 @@ input, select, textarea {
 		}
 
 		strong, h2, h3 {
-			font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma;
+			font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma, arial;
 			letter-spacing: 0.1em;
 		}
 
@@ -4039,6 +4039,14 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+
+	#preguntas .accordion h3 {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* #preguntas .accordion p {
+		font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma, arial;
+	} */
 
 	.question {
 		padding: 5px 20px;
