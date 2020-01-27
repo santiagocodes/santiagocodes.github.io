@@ -3255,6 +3255,11 @@ input, select, textarea {
 			max-width: 100%;
 			width: 75em;
 		}
+		
+		.fullscreen.inner {
+			display: flex;
+			align-items: center
+		}
 
 			@media screen and (max-width: 1680px) {
 
