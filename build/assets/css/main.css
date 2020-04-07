@@ -3981,18 +3981,20 @@ body.is-preload #sidebar nav ul li {
 #saludos {
   background-attachment: fixed;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.9)
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
     ),
-    url("images/abstraction.jpg");
-  background-position: top right;
+    url("images/codingBackground.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #saludos p {
   font-size: 1.25em;
+  text-shadow: 0px 0px 1px whitesmoke;
+  line-height: 2em;
 }
 
 #saludos h1 {
@@ -4002,8 +4004,8 @@ body.is-preload #sidebar nav ul li {
 
 #saludos strong {
   font-family: tahoma, Arial, Helvetica, sans-serif;
-  text-shadow: 1px 1px 10px black;
-  letter-spacing: 0.1em;
+  text-shadow: 0px 0px 2px whitesmoke;
+  letter-spacing: 0.15em;
 }
 
 /* @media screen and (max-width: 980px) {
