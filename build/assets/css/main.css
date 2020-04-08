@@ -3991,6 +3991,21 @@ body.is-preload #sidebar nav ul li {
   background-size: 100% 100%;
 }
 
+.multiLang p a {
+  margin: 1em;
+  font-size: 0.8em !important;
+  text-decoration: none;
+}
+
+.multiLang p a:hover {
+  color: rgba(175, 175, 175, 0.2);
+}
+
+.multiLang p a.active {
+  color: #ffffff;
+  font-weight: 900;
+}
+
 #saludos p {
   font-size: 1.25em;
   text-shadow: 0px 0px 1px whitesmoke;

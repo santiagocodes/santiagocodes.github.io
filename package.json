@@ -1,8 +1,8 @@
 {
   "name": "portfolio-esp",
   "version": "1.0.0",
-  "description": "Versión en español del Portfolio.",
-  "main": "index.js",
+  "description": "Mi Portfolio @santiagocodes.",
+  "main": "esp.html",
   "scripts": {
     "deploy": "gh-pages -d build"
   },
