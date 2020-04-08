@@ -2,7 +2,7 @@
   "name": "portfolio-esp",
   "version": "1.0.0",
   "description": "Mi Portfolio @santiagocodes.",
-  "main": "esp.html",
+  "main": "index.html",
   "scripts": {
     "deploy": "gh-pages -d build"
   },
