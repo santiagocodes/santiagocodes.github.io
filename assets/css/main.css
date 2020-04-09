@@ -4099,13 +4099,31 @@ strong {
   justify-content: space-around;
   text-decoration: none;
   list-style: none;
-  align-items: flex-end;
+  align-items: space-between;
+}
+
+.prButtons li {
+  margin: 4px;
 }
 
 .prButtons a {
   height: calc(3.5em + 2px);
   line-height: 3.5em;
   padding: 0 2.75em;
+}
+
+.feature ul {
+  padding-left: 0;
+}
+
+.feature ul li {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 462px) {
+  .prButtons .noshow {
+    display: none;
+  }
 }
 
 /* Recomendaciones */
