@@ -15,11 +15,11 @@ body {
 
 .noGoogleDrive {
   text-align: center;
-  color: #ffffff;
+  color: #b74e91;
 }
 
 .noGoogleDrive a {
   color: #999999;
-  text-shadow: 0px 0px 1px #ffffff;
+  text-shadow: 0px 0px 2px #ffffff;
   font-weight: bold;
 }
