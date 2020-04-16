@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mc-santiago/portfolio-esp.git"
+    "url": "git+https://github.com/santiagocodes/portfolio-esp.git"
   },
   "author": "santiagocodes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mc-santiago/portfolio-esp/issues"
+    "url": "https://github.com/santiagocodes/portfolio-esp/issues"
   },
   "homepage": "santiagocodes.com",
   "dependencies": {
