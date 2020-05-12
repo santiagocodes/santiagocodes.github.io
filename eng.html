@@ -71,6 +71,8 @@
             continue on this page to view some of my projects or you can just
             take a look at my CV by clicking on the button below.
           </p>
+
+          <!-- button -->
           <ul class="actions">
             <li>
               <a href="cv-eng.html" class="button scrolly" target="_blank"
@@ -94,29 +96,39 @@
             code for each project.
           </p>
           <div class="features">
-            <!-- JS Portfolio -->
-            <section class="feature align-center">
-              <h3>JavaScript Portfolio</h3>
-              <iframe
-                src="https://giphy.com/embed/el6gkq6VEXeqtLIAxD"
-                frameborder="0"
+            <!-- Weather-App -->
+            <section class="align-center">
+              <h3>
+                <a
+                  href="https://santiagocodes-weather-app.herokuapp.com/"
+                  target="_blank"
+                  >Weather App</a
+                >
+              </h3>
+              <video
+                src="assets/css/videos/weatherNode.mp4"
+                autoplay
+                loop
                 class="giphy-embed"
-              ></iframe>
+              ></video>
               <p class="align-justify">
-                I created this portfolio as a way to put into practice the
-                exercises I had to complete in order to obtain the Algorithms
-                and Data Structures JavaScript certificate. Includes a
-                step-by-step section that explains the code at #CodeNewbie
-                level.
+                The original project started with a webpage that used two APIs
+                to obtain information about the weather. As I advanced, I
+                decided to expand the project by adding other functionalities
+                like changing the image logo to an image that reflects the
+                current weather conditions, a dark-mode button and designing
+                with tailwindCSS.
               </p>
               <p>
-                Technologies used: <strong>HTML5UP</strong>(modificado) y
-                Vanilla <strong>JavaScript</strong>.
+                Technologies used: <strong>NodeJS</strong>,
+                <strong>HandleBars</strong>, <strong>TailwindCSS</strong>,
+                <strong>Heroku</strong>, and the WeatherStack and MapBox
+                <strong>API</strong>s.
               </p>
               <ul class="prButtons">
                 <li>
                   <a
-                    href="https://santiagocodes.github.io/javascript/"
+                    href="https://santiagocodes-weather-app.herokuapp.com/"
                     class="button scrolly"
                     target="_blank"
                     ><span class="noshow">Live</span> Demo</a
@@ -124,7 +136,7 @@
                 </li>
                 <li>
                   <a
-                    href="https://github.com/santiagocodes/javascript"
+                    href="https://github.com/santiagocodes/weather-app-node"
                     class="button scrolly"
                     target="_blank"
                     ><span class="noshow">Source</span> Code</a
@@ -132,45 +144,7 @@
                 </li>
               </ul>
             </section>
-            <!-- EarnEat -->
-            <section class="feature align-center">
-              <h3>EarnEat Dashboard</h3>
-              <iframe
-                src="https://giphy.com/embed/kF048y8VjCrVifB4Jg"
-                frameborder="0"
-                class="giphy-embed"
-              ></iframe>
-              <p class="align-justify">
-                Fully responsive employee dashboard made for ApetEat. I worked
-                with a team of three where everyone shared both front-end and
-                back-end tasks, but I was in charge of ensuring that everything
-                went well on the front-end.
-              </p>
-              <p>
-                Technologies used: <strong>MySQL</strong>,
-                <strong>NodeJS</strong>, <strong>ReactJS</strong>,
-                <strong>SemanticUI</strong>, <strong>ExpressJS</strong>,
-                <strong>PassportJS</strong>, entre otros.
-              </p>
-              <ul class="prButtons">
-                <li>
-                  <a
-                    href="https://earneat-api.herokuapp.com/"
-                    class="button scrolly"
-                    target="_blank"
-                    ><span class="noshow">Live</span> Demo</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/BrenM94/Project3-Earneat"
-                    class="button scrolly"
-                    target="_blank"
-                    ><span class="noshow">Source</span> Code</a
-                  >
-                </li>
-              </ul>
-            </section>
+
             <!-- Space Invaders -->
             <section class="feature align-center">
               <h3>Battle Spaceships</h3>
@@ -181,10 +155,10 @@
               ></iframe>
               <p class="align-justify">
                 For this project I worked in a two-member team. This space
-                invaders-like game won us a Hackathon Game Challenge.
+                invaders-like game won us a 24hr Hackathon Game Challenge.
               </p>
               <p>
-                Technologies used: <strong>Phaser3</strong> y
+                Technologies used: <strong>Phaser3</strong> and
                 <strong>CSS</strong>.
               </p>
               <ul class="prButtons">
@@ -206,6 +180,86 @@
                 </li>
               </ul>
             </section>
+
+            <!-- JS Portfolio -->
+            <section class="feature align-center">
+              <h3>JavaScript Portfolio</h3>
+              <iframe
+                src="https://giphy.com/embed/el6gkq6VEXeqtLIAxD"
+                frameborder="0"
+                class="giphy-embed"
+              ></iframe>
+              <p class="align-justify">
+                I created this portfolio as a way to put into practice the
+                exercises I had to complete in order to obtain the Algorithms
+                and Data Structures JavaScript certificate. Includes a
+                step-by-step section that explains the code at #CodeNewbie
+                level.
+              </p>
+              <p>
+                Technologies used: <strong>HTML5UP</strong>(modified) and
+                Vanilla <strong>JavaScript</strong>.
+              </p>
+              <ul class="prButtons">
+                <li>
+                  <a
+                    href="https://santiagocodes.github.io/javascript/"
+                    class="button scrolly"
+                    target="_blank"
+                    ><span class="noshow">Live</span> Demo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/santiagocodes/javascript"
+                    class="button scrolly"
+                    target="_blank"
+                    ><span class="noshow">Source</span> Code</a
+                  >
+                </li>
+              </ul>
+            </section>
+
+            <!-- EarnEat -->
+            <section class="feature align-center">
+              <h3>EarnEat Dashboard</h3>
+              <iframe
+                src="https://giphy.com/embed/kF048y8VjCrVifB4Jg"
+                frameborder="0"
+                class="giphy-embed"
+              ></iframe>
+              <p class="align-justify">
+                Fully responsive employee dashboard made for ApetEat. I worked
+                with a team of three where everyone shared both front-end and
+                back-end tasks, but I was in charge of ensuring that everything
+                went well on the front-end.
+              </p>
+              <p>
+                Technologies used: <strong>MySQL</strong>,
+                <strong>NodeJS</strong>, <strong>ReactJS</strong>,
+                <strong>SemanticUI</strong>, <strong>ExpressJS</strong>,
+                <strong>PassportJS</strong>, among others.
+              </p>
+              <ul class="prButtons">
+                <li>
+                  <a
+                    href="https://earneat-api.herokuapp.com/"
+                    class="button scrolly"
+                    target="_blank"
+                    ><span class="noshow">Live</span> Demo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/BrenM94/Project3-Earneat"
+                    class="button scrolly"
+                    target="_blank"
+                    ><span class="noshow">Source</span> Code</a
+                  >
+                </li>
+              </ul>
+            </section>
+
             <!-- The Simpsons Quotes -->
             <section class="feature align-center">
               <h3>Random Quote Generator</h3>
@@ -221,8 +275,8 @@
               </p>
               <p>
                 Technologies used: <strong>Axios</strong>,
-                <strong>ReactJS</strong>, <strong>CSS</strong> y el
-                <strong>API</strong> thesimpsonsquoteapi.glitch.me/.
+                <strong>ReactJS</strong>, <strong>CSS</strong> and
+                thesimpsonsquoteapi.glitch.me/ <strong>API</strong>.
               </p>
               <ul class="prButtons">
                 <li>
@@ -244,6 +298,8 @@
               </ul>
             </section>
           </div>
+
+          <!-- button -->
           <ul class="actions">
             <li>
               <a
@@ -345,6 +401,8 @@
 							</section> 
 							-->
           <br />
+
+          <!-- button -->
           <ul class="actions">
             <li>
               <a

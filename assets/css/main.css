@@ -4073,7 +4073,11 @@ body.is-preload #sidebar nav ul li {
 
 .giphy-embed {
   width: 100%;
-  padding: 10px 0 5px 0;
+  padding: 10px 0 15px 0;
+}
+
+video.giphy-embed {
+  width: 60%;
 }
 
 strong,
