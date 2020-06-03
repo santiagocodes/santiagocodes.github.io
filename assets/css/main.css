@@ -4077,7 +4077,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 video.giphy-embed {
-  width: 60%;
+  max-width: 25rem;
 }
 
 strong,
