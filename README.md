@@ -1,8 +1,8 @@
 ![portfolio greetings santiagocodes.com](https://i.postimg.cc/VNH0TQyq/portfolio-p1.png)
 
-![portfolio projects](https://postimg.cc/JD8zbQsq)
+![portfolio projects](https://i.postimg.cc/Ss2YbTqw/portfolio-p2.png)
 
-! [portfolio reviews](https://postimg.cc/t724xWp3)
+![portfolio reviews](https://i.postimg.cc/8PVJxmY0/portfolio-p3.png)
 
 # Template
 
@@ -18,7 +18,7 @@ To embed "Shadows Into Light" font into a webpage, copy this code into the <head
 
 # Form
 
-![portfolio contact form](https://postimg.cc/ZCQYfm90)
+![portfolio contact form](https://i.postimg.cc/GmLBmhdP/portfolio-p4.png)
 
 With formspree.io you use your own HTML, Javascript and CSS. Submit to their API and they'll handle the rest. — perfect for static sites!
 
