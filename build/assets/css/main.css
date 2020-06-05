@@ -3991,6 +3991,12 @@ body.is-preload #sidebar nav ul li {
   background-size: 100% 100%;
 }
 
+.multiLang {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
 .multiLang p a {
   padding: 1em;
   font-size: 0.8em !important;
@@ -4014,7 +4020,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 #saludos h1 {
-  font-family: "Shadows Into Light", "Lakki Reddy", tahoma, arial;
+  font-family: "Shadows Into Light", tahoma, arial, sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -4081,7 +4087,7 @@ body.is-preload #sidebar nav ul li {
 strong,
 h2,
 h3 {
-  font-family: "Shadows Into Light", "Lakki Reddy", tahoma, arial;
+  font-family: "Shadows Into Light", tahoma, arial, sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -4171,7 +4177,7 @@ strong {
 }
 
 /* #preguntas .accordion p {
-		font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma, arial;
+		font-family: 'Shadows Into Light', tahoma, arial;
 	} */
 
 .question {
@@ -4222,7 +4228,7 @@ strong {
 /* Contactame */
 
 /* #contacto .shadowsfont {
-		font-family: 'Shadows Into Light', 'Lakki Reddy', tahoma;
+		font-family: 'Shadows Into Light', tahoma;
 	}
 
 	#contacto .arialfont {
