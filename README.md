@@ -24,6 +24,12 @@ To embed "Shadows Into Light" font into a webpage, copy this code into the <head
 
 With formspree.io you use your own HTML, Javascript and CSS. Submit to their API and they'll handle the rest. — perfect for static sites!
 
+# Optimization
+
+- [mp4compress.com](https://www.mp4compress.com/) for compressing the videos.
+- [tinypng.com](https://tinypng.com/) for smart PNG and JPEG compression.
+- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=en) to analyze the content of a web page, then generate suggestions to make that page faster.
+
 # Deploy
 
 GitHub Pages hosts directly from your GitHub repository. Just edit, push, and your changes are live.
