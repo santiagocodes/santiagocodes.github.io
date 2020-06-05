@@ -4073,11 +4073,9 @@ body.is-preload #sidebar nav ul li {
 
 .giphy-embed {
   width: 100%;
-  padding: 10px 0 15px 0;
-}
-
-video.giphy-embed {
   max-width: 25rem;
+  align-self: center;
+  padding: 1rem 0 2rem 0;
 }
 
 strong,
