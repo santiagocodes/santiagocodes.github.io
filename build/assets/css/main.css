@@ -3331,12 +3331,13 @@ table.alt tfoot {
 .wrapper > .inner {
   padding: 5em 5em 3em 5em;
   max-width: 100%;
-  width: 75em;
+  /* width: 75em; */
 }
 
 .fullscreen.inner {
   display: flex;
   align-items: center;
+  /* justify-content: center; */
 }
 
 @media screen and (max-width: 1680px) {
@@ -3985,7 +3986,7 @@ body.is-preload #sidebar nav ul li {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 1)
     ),
-    url("images/codingBackground.jpg");
+    url("../images/codingBackground.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4138,12 +4139,12 @@ strong {
 /* Recomendaciones */
 
 .section-box {
-  background-color: rgba(134, 50, 134, 0.5);
+  background-color: rgba(134, 50, 134, 0.6);
   border: 2px solid rgb(80, 8, 80);
   border-radius: 10px;
   box-shadow: 0 2px 5px 1px rgb(182, 134, 182);
   margin-top: 35px;
-  padding: 20px 40px;
+  padding: 0.8rem 1.5rem;
   width: 95%;
   display: block;
   margin-left: auto;
@@ -4158,38 +4159,38 @@ strong {
   float: right;
 }
 
-/* Preguntas */
+/* Certificados */
 
-#preguntas {
+#certificados {
   background-attachment: fixed;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.9)
+      rgba(73, 51, 130, 0.6),
+      rgba(73, 51, 130, 0.9),
+      rgba(73, 51, 130, 0.6)
     ),
-    url("images/abstraction.jpg");
+    url("../images/codingBackground.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-#preguntas .accordion h3 {
+#certificados .accordion h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* #preguntas .accordion p {
-		font-family: 'Shadows Into Light', tahoma, arial;
-	} */
+#certificados .accordion p {
+  font-family: "Shadows Into Light", tahoma, arial;
+}
 
-.question {
+.certificado {
   padding: 5px 20px;
   cursor: pointer;
   position: relative;
 }
 
 @media screen and (max-width: 736px) {
-  #preguntas .section-box {
-    padding: 1em 2.5em 1em 0.5em;
+  .accordion .section-box {
+    padding: 1em 1.5em 1em 0.5em;
   }
 }
 
@@ -4199,31 +4200,36 @@ strong {
   padding-left: 0;
 }
 
-.question .fa-angle-down {
+.certificado .fa-angle-down {
   position: absolute;
   right: 0px;
   top: 0;
   height: 100%;
   display: flex;
   align-items: center;
-  color: #000;
+  color: rgb(255, 255, 255);
   transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
 }
 
-.accordion li.open .question .fa-angle-down {
+.accordion li.open .certificado .fa-angle-down {
   transform: rotate(180deg);
 }
-.accordion li.open .answer {
+.accordion li.open .certificado-img {
   max-height: 1000px;
 }
 
-.answer {
+.certificado-img {
   max-height: 0;
   overflow: hidden;
   transition: 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  display: flex;
+  justify-content: center;
 }
-.answer p {
-  padding: 20px 20px 20px 50px;
+
+.certificado-img img {
+  padding: 20px;
+  max-width: 100%;
+  max-height: 85vh;
 }
 
 /* Contactame */
@@ -4239,6 +4245,6 @@ strong {
 /* Footer */
 
 .copyright {
-  font-size: 0.75em;
-  color: rgba(175, 175, 175, 0.5);
+  font-size: 0.95em;
+  color: rgba(255, 255, 255, 0.6);
 }
