@@ -1,22 +1,24 @@
 {
-  "name": "portfolio-esp",
-  "version": "1.0.0",
-  "description": "Mi Portfolio @santiagocodes.",
-  "main": "index.html",
-  "scripts": {
-    "deploy": "gh-pages -d build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/santiagocodes/portfolio-esp.git"
-  },
-  "author": "santiagocodes",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/santiagocodes/portfolio-esp/issues"
-  },
-  "homepage": "santiagocodes.com",
-  "dependencies": {
-    "gh-pages": "^2.2.0"
-  }
+   "name": "portfolio-esp",
+   "version": "1.0.0",
+   "description": "Mi Portfolio @santiagocodes.",
+   "main": "index.html",
+   "scripts": {
+      "deploy": "gh-pages -d build",
+      "cleancss": "purgecss --css ./build/assets/css/fontawesome-all.min.css --content ./build/index.html --output ./build/assets/cleancss"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/santiagocodes/portfolio-esp.git"
+   },
+   "author": "santiagocodes",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/santiagocodes/portfolio-esp/issues"
+   },
+   "homepage": "santiagocodes.com",
+   "dependencies": {
+      "gh-pages": "^2.2.0"
+   },
+   "devDependencies": {}
 }
