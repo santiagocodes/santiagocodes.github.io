@@ -4200,8 +4200,13 @@ strong {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+#certificados .accordion p span {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
 #certificados .accordion p {
    font-family: 'Shadows Into Light', tahoma, arial;
+   letter-spacing: 2px;
 }
 
 .certificado {
@@ -4226,8 +4231,9 @@ strong {
    position: absolute;
    right: 0px;
    top: 0;
-   height: 100%;
+   /* height: 100%; */
    display: flex;
+   flex-direction: column;
    align-items: center;
    color: rgb(255, 255, 255);
    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
@@ -4237,21 +4243,21 @@ strong {
    transform: rotate(180deg);
 }
 .accordion li.open .certificado-img {
-   max-height: 1000px;
+   max-height: 100vh;
 }
 
 .certificado-img {
    max-height: 0;
    overflow: hidden;
    transition: 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
-   display: flex;
-   justify-content: center;
 }
 
 .certificado-img img {
    padding: 20px;
    max-width: 100%;
-   max-height: 85vh;
+   max-height: 75vh;
+   display: block;
+   margin: 0 auto;
 }
 
 /* Contactame */
