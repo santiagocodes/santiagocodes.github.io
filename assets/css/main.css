@@ -2072,11 +2072,11 @@ button,
    font-family: tahoma, Arial, Helvetica, sans-serif;
    font-size: 0.7em;
    font-weight: bold;
-   height: calc(4.5em + 2px);
+   height: calc(4em + 2px);
    letter-spacing: 0.25em;
-   line-height: 4.5em;
+   line-height: 4em;
    outline: 0;
-   padding: 0 2.75em;
+   padding: 0 2em;
    position: relative;
    text-align: center;
    text-decoration: none;
@@ -4136,8 +4136,8 @@ body.is-preload #sidebar nav ul li {
 }
 
 .multiLang p a {
-   padding: 1em;
-   font-size: 0.8em !important;
+   padding: 0.5em;
+   font-size: 0.6em !important;
    text-decoration: none;
    border-bottom-style: none;
 }
@@ -4169,23 +4169,29 @@ body.is-preload #sidebar nav ul li {
 }
 
 @media screen and (max-width: 480px) {
-   #saludos .inner {
+   /* #saludos .inner {
       padding-top: 5em;
-   }
+   } */
 
    #saludos h1 {
       font-size: 1.75em;
    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
+   #saludos .noshow {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 736px) and (max-height: 736px) {
    #saludos .noshow {
       display: none;
    }
 }
 
 @media screen and (max-height: 750px) {
-   #saludos .noshow {
+   #saludos .noshow2 {
       display: none;
    }
 }
@@ -4210,7 +4216,7 @@ body.is-preload #sidebar nav ul li {
 .picMe {
    float: left;
    shape-outside: circle(50%);
-   inline-size: 150px;
+   inline-size: 8em;
    border-radius: 20%;
    border: 2px solid rgb(182, 134, 182);
    box-shadow: 0 1px 10px 2px rgba(43, 2, 43, 0.9);
