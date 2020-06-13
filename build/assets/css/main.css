@@ -2223,11 +2223,11 @@ button:hover:active:after,
    border-radius: 0.25em;
    border: solid 1px rgba(255, 255, 255, 0.15);
    background: rgba(255, 255, 255, 0.05);
-   margin: 0 0 2em 0;
+   margin: 2em 0 2em 0;
 }
 
 .features section {
-   padding: 2.5em 2em 1em 2em;
+   padding: 2em 2em 1em 2em;
    width: 50%;
    border-top: solid 1px rgba(255, 255, 255, 0.15);
    position: relative;
@@ -2426,7 +2426,7 @@ button:hover:active:after,
 
 @media screen and (max-width: 736px) {
    .features section {
-      padding: 2.5em 1.5em 0.5em 1.5em;
+      padding: 1.5em 1.5em 0.5em 1.5em;
    }
 
    .features section .icon {
@@ -4232,7 +4232,7 @@ body.is-preload #sidebar nav ul li {
 
 @media screen and (max-width: 1280px) {
    #proyectos {
-      padding-top: 12vh;
+      padding-top: 10vh;
    }
 }
 
