@@ -4117,8 +4117,16 @@ body.is-preload #sidebar nav ul li {
    background-size: 100% 100%;
    min-height: 95vh;
    z-index: 10;
-   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-   margin-bottom: -10vw;
+   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 0 100%);
+   margin-bottom: -6vw;
+}
+
+@media screen and (max-width: 1280px) {
+   #saludos {
+      z-index: 10;
+      clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+      margin-bottom: -10vw;
+   }
 }
 
 .multiLang {
@@ -4170,7 +4178,7 @@ body.is-preload #sidebar nav ul li {
    }
 }
 
-@media screen and (max-width: 400px) and {
+@media screen and (max-width: 400px) {
    #saludos .noshow {
       display: none;
    }
@@ -4183,13 +4191,6 @@ body.is-preload #sidebar nav ul li {
 }
 
 @media screen and (max-width: 736px) {
-   #saludos {
-      height: 95vh;
-      z-index: 10;
-      clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-      margin-bottom: -10vw;
-   }
-
    #saludos p {
       font-size: 1em;
    }
@@ -4205,15 +4206,6 @@ body.is-preload #sidebar nav ul li {
       background-attachment: scroll;
    }
 }
-/* 
-@media screen and (max-width: 736px) {
-   #saludos {
-      height: 80vh;
-      z-index: 10;
-      clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
-      margin-bottom: -5vw;
-   }
-} */
 
 .picMe {
    float: left;
@@ -4235,7 +4227,13 @@ body.is-preload #sidebar nav ul li {
 /* Mis Proyectos */
 
 #proyectos {
-   padding-top: 12vh;
+   padding-top: 8vh;
+}
+
+@media screen and (max-width: 1280px) {
+   #proyectos {
+      padding-top: 12vh;
+   }
 }
 
 video {
